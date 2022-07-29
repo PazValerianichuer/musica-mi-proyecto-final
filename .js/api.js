@@ -5,7 +5,7 @@ let boton_activo = null;
 const el_lista_canciones = document.getElementById("cansiones-lista");
 const el_imagen = document.querySelector("#cansion-seleccionada img");
 const el_nombre = document.querySelector("#cancion-seleccionada h2");
-const el_desc = document.querySelector("#juego-seleccionado p");
+const el_desc = document.querySelector("#cansion-seleccionada p");
 // Buscar desde nuestra propia base de datos
 fetch(url + "datos.json").then(function(respuesta) {
     return respuesta.json();
